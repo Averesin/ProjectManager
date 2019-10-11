@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectManager.Repository.Models
 {
-    public class Project
+    public class Task
     {
         public int Id { get; set; }
 

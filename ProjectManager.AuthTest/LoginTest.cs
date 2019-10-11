@@ -6,7 +6,7 @@ using ProjectManager.Authentication.Models;
 namespace ProjectManager.AuthTest
 {
     [TestClass]
-    public class UnitTest1
+    public class LoginTest
     {
         [TestMethod]
         public void TestMethod1()

@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManager.AuthTest", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManager.Repository", "ProjectManager.Repository\ProjectManager.Repository.csproj", "{CEBE5CBD-A61D-4961-84D4-F8C7D5C83E18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManager.Repository. Tests", "ProjectManager.Repository. Tests\ProjectManager.Repository. Tests.csproj", "{4C3B4D7E-A2DC-48A1-8967-CF9F36CF2D63}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CEBE5CBD-A61D-4961-84D4-F8C7D5C83E18} = {CEBE5CBD-A61D-4961-84D4-F8C7D5C83E18}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +38,10 @@ Global
 		{CEBE5CBD-A61D-4961-84D4-F8C7D5C83E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEBE5CBD-A61D-4961-84D4-F8C7D5C83E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEBE5CBD-A61D-4961-84D4-F8C7D5C83E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3B4D7E-A2DC-48A1-8967-CF9F36CF2D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3B4D7E-A2DC-48A1-8967-CF9F36CF2D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3B4D7E-A2DC-48A1-8967-CF9F36CF2D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3B4D7E-A2DC-48A1-8967-CF9F36CF2D63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
